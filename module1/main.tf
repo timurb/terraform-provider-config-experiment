@@ -1,4 +1,7 @@
-provider "aws" {}
+### Defining provider with no region doesn't work.
+### See also https://www.terraform.io/docs/providers/aws/index.html#region
+
+#provider "aws" {}
 
 data "aws_region" "current" {}
 
