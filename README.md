@@ -2,6 +2,8 @@
 
 This is an experiment in how Terraform providers propagate their configuration across modules.
 
+UPDATE: after finishing this I found the upstream recommendation: https://www.terraform.io/docs/configuration/modules.html#providers
+
 ## Description
 
 We define AWS provider with its region in top module and see how providers work in child modules.
