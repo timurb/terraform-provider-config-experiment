@@ -2,3 +2,5 @@
 .terraform/
 *~
 *.swp
+.envrc
+*.tfstate*
