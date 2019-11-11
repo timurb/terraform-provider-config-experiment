@@ -19,5 +19,6 @@ In each of child modules terraform provider is defined differently.
     - If there is no parent you'll be asked to specify region
 
 * When provider is defined in child module:
-    - You have to specify region for it or plan will crash
     - You can specify a region different to parent provider
+    - If using as standalone module you can specify provider with no region. You will be asked to specify the region on `terraform apply`
+    - If using as child module you have to specify region for it or `terraform plan` will crash
